@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f4a82;
+    font-size: 14px;
+    color: white;
+}
+
+
+/* NAVBAR HERE */
+.navbar{
+    background: black;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding-left: 5%;
+}
+
+.menu-list{
+    list-style-type: none;
+    padding-right: 10%;
+}
+
+.menu-list li {
+    display: inline-block;
+    padding: 15px 10px;
+}
+
+.navbar a{
+    opacity: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    border-bottom: 3px solid orange
+}
+
+
+.background-macbook{
+    width: 100%;
+}
+
+.category h2 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+/* HEADING SECTION HERE */
+.heading {
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.heading-title{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    font-weight: bold;
+    border: 3px solid orange;
+}
+
+/* ABOUT SECTION HERE */
+.about-container{
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    justify-content: center;
+}
+
+.about{
+    background-color: rgba(0,0,0,.2);
+    display: flex;
+    border: 5px solid orange;
+    border-radius: 10px;
+    box-shadow: .75em .75em 1em rgba(0, 0, 0, 0.5);
+}
+
+.my-image {
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid orange;
+    margin-left: 20px;
+}
+
+.about-left{
+    flex-basis: 20%;
+    padding: 20px;
+}
+
+.about-right{
+    flex-basis: 80%;
+    padding: 20px;
+}
+
+.about p{
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.before-name{
+    color: orange;
+    margin-bottom: 0;
+}
+
+/* SKILLS SECTION */
+.skills {
+
+}
+
+/* WORK SECTION */
+.work {
+    margin: 50px auto;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.work h2 {
+    padding-right: 15px;
+}
+
+.work-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-card {
+    background-color: white;
+    height: 500px;
+    width: 100%;
+    border: 5px solid orange;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.main-card a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-card-img {
+    height: 500px;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+    vertical-align: top;
+}
+
+.main-card-label, .main-card-img {
+    opacity: 0.75;
+    transition: 0.6s;
+    transition-property: opacity;
+}
+
+.main-card-label:hover, .main-card-img:hover {
+    opacity: 1;
+}
+
+.main-card-label {
+    color: white;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    margin-bottom: -80px;
+}
+
+.main-card-img .main-card-label {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.card-label {
+    background-color: transparent;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+}
+
+.card-label h3 p {
+    text-align: center;
+}
+
+.card {
+    height: 300px;
+    width: 445px;
+    border: 5px solid orange;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* CONTACT FORM HERE */
+.contact-form{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.contact-box{
+    background-color: #0f4a82;
+    display: flex;
+    border: 5px solid orange;
+    border-radius: 10px;
+    box-shadow: .75em .75em 1em rgba(0, 0, 0, 0.5);
+}
+
+.contact{
+    flex-basis: 100%;
+    padding: 40px;
+    color: white;
+}
+
+.contact-title{
+    margin-bottom: 10px;
+    border-bottom: 5px solid orange;
+}
+
+.contact-form p{
+    margin-bottom: 40px;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20x;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+
+.contact-box input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid orange;
+    outline: none;
+    padding-bottom: 5px;
+    background-color: #0f4a82;
+}
+
+.contact-box button{
+    background: orange;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.contact-box textarea{
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+    border-color: orange;
+    background-color: #0f4a82;
+}
+
+.contact-box label{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    display: block;
+    color: white;
+    font-size: large;
+}
+
+.contact-box input {
+    color: white;
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+}
